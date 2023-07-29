@@ -1,0 +1,22 @@
+#joke {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  #getJokeBtn {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  #getJokeBtn.clicked {
+    opacity: 0;
+  }
+  .joke-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+  }
